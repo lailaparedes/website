@@ -1,0 +1,71 @@
+
+.little-lemon-project {
+    width: 100%;
+    height: 300vh;
+    padding-top: 150px;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    padding-left: 75px;
+    z-index: 100;
+}
+
+.little-lemon-project .llp-div {
+    width: 90%;
+    height: 75%; 
+    background: linear-gradient(to right,rgb(243, 228, 157), rgb(246, 205, 0),  rgb(247, 221, 95), rgb(243, 228, 157), rgb(247, 221, 95), rgb(243, 228, 157));
+    border: 1px solid rgb(255, 255, 147); 
+    padding-top: 3vh;
+    
+}
+
+
+.little-lemon-project .llp-div .images { 
+    display: flex;
+    
+}
+
+.little-lemon-project .llp-div h {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    color: black;
+
+}
+
+.little-lemon-project .llp-div .img1,
+.little-lemon-project .llp-div .img2,
+.little-lemon-project .llp-div .img3,
+.little-lemon-project .llp-div .img4 {
+    flex: 1; /* Equal width for both images */
+    margin-right: 30px; /* Adjust margin between images as needed */
+    padding-top: 80px;
+    width: 400px;
+    height: 400px;
+}
+
+.art-vault-project {
+    width: 100%;
+    height: 70vh;
+    padding-top: 150px;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    padding-left: 75px;
+    z-index: 100;
+}
+
+.art-vault-project .aV-div {
+    width: 95%;
+    height: 75%; 
+    background: linear-gradient(to right,rgb(243, 228, 157), rgb(246, 205, 0),  rgb(247, 221, 95), rgb(243, 228, 157), rgb(247, 221, 95), rgb(243, 228, 157));
+    border: 1px solid rgb(255, 255, 147); 
+    padding-top: 10vh;
+    
+}

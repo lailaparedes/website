@@ -1,0 +1,205 @@
+
+.quote {
+    padding-top: 15vh;
+    padding-left: 150px;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+
+.quote h {
+    color: white;
+    font-size:  70px;
+    font-family: 'Advent Pro';;
+}
+
+main {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20vh;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    z-index: 100;
+    padding-left: 100px;
+}
+
+
+
+main .about-bio {
+    padding-top: 7vh;
+}
+main .about-bio h {
+    float: left;
+    color: white;
+    font-size: 30px;
+}
+
+main .about-bio p {
+    color: white;
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+hr {
+    color: white;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 0.5em;
+    margin-right: 100px;;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+.resume-class {
+    width: 100%;
+    height: fit-content;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    z-index: 100;
+    padding-left: 100px;
+}
+
+
+.resume {
+    padding-top: 5vh;
+}
+
+.resume h {
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+
+.resume .resume_icon {
+    color: white;
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+
+.resume .resume_icon img:nth-child(1),
+.resume .resume_icon img:nth-child(2) {
+    height: 80px;
+    width: 85px;
+    float: left;
+}
+
+.resume .resume_icon img:nth-child(1) {
+    padding-right: 20px; /* Adjust spacing between header and the first icon */
+}
+
+.resume .resume_icon img:nth-child(2) {
+    display: none; 
+    padding-right: 20px;
+}
+
+.resume:hover .resume_icon img:nth-child(1) {
+    display: none; /* Hide the first image on hover */
+}
+
+.resume:hover .resume_icon img:nth-child(2) {
+    display: block; /* Display the second image on hover */
+}
+
+.resume-class hr {
+    width: 333%; /* Make the hr span the entire width of the container */
+}
+
+
+
+.links {
+    width: 100%;
+    height:fit-content;
+    padding-top: 5vh;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    z-index: 100;
+    padding-left: 100px;
+}
+
+
+.links-div h {
+    color: white;
+    font-size: 30px;
+}
+
+.links-div .links-list {
+    padding-left: 300px;
+}
+
+.links-div .links-list a{
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.links-div .links-list a:hover{
+    text-decoration: underline;
+    color: rgb(212, 142, 12);
+}
+
+.links hr {
+        width: 185%;
+        color: white;
+        display: block;
+        margin-top: 100px;
+        margin-bottom: 0.5em;
+        margin-right: 100px;;
+        border-style: inset;
+        border-width: 1px;
+}
+
+
+.contact {
+    width: 100%;
+    height: fit-content;
+    padding-top: 5vh;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    z-index: 100;
+    padding-left: 100px;
+}
+
+.contact .contact-div {
+    padding-top: 0vh;
+    columns: 250px;
+}
+.contact .contact-div h {
+    float: left;
+    color: white;
+    font-size: 30px;
+}
+
+.contact .contact-div .linkedin-list {
+    padding-left: 300px;
+    padding-right: 50px;
+}
+
+.contact .contact-div .linkedin-list a {
+    color: white;
+}
+
+.contact .contact-div .gmail-list {
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+.contact .contact-div .gmail-list a {
+    color: white;
+}

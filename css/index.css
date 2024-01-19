@@ -1,0 +1,119 @@
+@font-face {
+    font-family: nos ;
+    src: url(fonts/Borel-Regular.ttf);
+}
+main {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    background:  black;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    display: flex;
+    justify-content: left;
+    padding-left: 15%;
+    z-index: 100;
+}
+
+main .main-intro p {
+    font-size: 30px;
+    margin-right: 0px;
+    padding-top: 50%;
+    padding-right: 30px;
+    font-family: 'Borel', cursive;
+    font-style: italic;
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    line-height: 30px;
+    
+}
+
+main .main-intro p1 {
+    font-size: 40px;
+    margin-right: 0px;
+    padding-top: 55px;
+    padding-right: 30px;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+main .main-intro p2 {
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+}
+
+main .main-intro p3 {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+main .main-intro p4 {
+    font-size: 38px;
+    color: rgb(255, 128, 0);
+    font-weight: bolder;
+    font-family: 'Advent Pro';
+    text-transform: uppercase;
+}
+
+
+
+main .main-intro {
+    position: relative;
+    right: 20vh;
+    padding-left: 100px;
+    padding-bottom: 4vh;
+    height: 60vh;
+}
+
+main .tree-pic {
+    width: 700px;
+    height:1000px;
+    opacity: 0.7;
+}
+
+
+.mission-category {
+    width: 100%;
+    height: 50vh;
+    padding-top: 50px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-left: 155px;
+}
+
+
+.mission-statement {
+    padding-right: 40px;
+}
+
+.mission-statement h {
+    font-size: 40px;
+    line-height: 30px;
+    color: rgb(255, 128, 0);
+    line-height: 40px;
+    font-family: 'Borel', cursive;
+
+}
+
+.mission-statement p {
+    padding-top: 10px;
+    color:white;
+    padding-right: 50%;
+    font-size: 22px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 30px;
+}
+
+

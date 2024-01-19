@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+.box {
+    position: sticky;
+    right: 0;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(3, 3, 6);
+
+}
+.container {
+    width: 100px;
+    height: 200vh;
+    background-color: red;
+}
